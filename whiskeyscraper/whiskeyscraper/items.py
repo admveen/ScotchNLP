@@ -24,7 +24,7 @@ class WhiskeyItem(scrapy.Item):
     bottler = scrapy.Field(input_processor = MapCompose(remove_tags, str.strip), output_processor = TakeFirst())
     age = scrapy.Field(input_processor = MapCompose(remove_tags, str.strip), output_processor = TakeFirst())
     alcohol = scrapy.Field(input_processor = MapCompose(remove_tags, str.strip), output_processor = TakeFirst())
-
+    price = scrapy.Field(input_processor = MapCompose(remove_tags, str.strip), output_processor = TakeFirst())
     # These sometimes appear in the bottling details. Other times they appear in the description and will have to be extracted via text-processing later.
 
     maturation = scrapy.Field(input_processor = MapCompose(remove_tags, str.strip), output_processor = TakeFirst())

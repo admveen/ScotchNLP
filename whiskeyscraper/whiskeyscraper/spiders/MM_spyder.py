@@ -10,11 +10,11 @@ class WhiskyURLSpider(scrapy.Spider):
     def parse(self, response):
         
         for whisky_obj in response.css('div.boxBgr.product-box-wide.h-gutter.js-product-box-wide'):
-            link_url = whisky_obj.css('div::attr(data-product-url)').get()
+            
             # maybe put in whisky price here
-            # whiskey_price = whisky_obj.css('div.product-box-wide-price gold::text').get()
-
-            yield response.follow(link_url, callback=self.parse_whiskey)
+            price = whisky_obj.css('div.product-box-wide-price.gold::text').get()
+            link_url = whisky_obj.css('h3 a::attr(href)').extract()[0]
+            yield response.follow(link_url, callback=self.parse_whiskey, meta= {'price': price})
 
         next_page = "https://www.masterofmalt.com/country-style/scotch/single-malt-whisky/" + str(WhiskyURLSpider.page_number) + "/"
 
@@ -40,7 +40,7 @@ class WhiskyURLSpider(scrapy.Spider):
         wload.add_css('finish', '#ContentPlaceHolder1_ctl00_ctl02_TastingNoteBox_ctl00_finishTastingNote::text')
 
         wload.add_css('description', 'div[itemprop="description"] p::text, div[itemprop="description"] p a::text')
-        
+        wload.add_value('price', response.meta.get('price'))
         # creates a nested loader to extract info from the bottling details subsection
         details_loader = wload.nested_css('#whiskyDetailsWrapper')
         details_loader.add_css('region', '#ContentPlaceHolder1_ctl00_ctl00_wdRegion span.kv-val a::text')
