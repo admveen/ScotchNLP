@@ -126,7 +126,7 @@ class Scotch_Recommender:
             # if not in dictionary and stem ends with vowel and consonant after stripping y, then add -e to end (smok -> smoke)   
             elif (stemmed_tok not in unique_token_set) & (not not re.findall(regex_search_pattern5, stemmed_tok)):
                 stemmed_tok = stemmed_tok + 'e'
-                spac_doc_list.append(stemmed_tok)
+                
         
             else:
                 spac_doc_list.append(token)
