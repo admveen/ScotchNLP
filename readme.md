@@ -1,8 +1,8 @@
 # Of digestive biscuits, old leather, and smoked ham: making sense of the language of Scotch whisky
 
-The language of Scotch tasting notes can be quite colorful and in some cases can border on the ridiculous. One tasting note of a Scotch from an expert taster goes like this:
+The language of Scotch tasting notes can be colorful and arcane with the not infrequent traversal into the land of the absolutely ridiculous. One tasting note of a Scotch from an expert taster goes like this:
 
->Nose: This opens on big, smoky muscular peat notes. There are spices, and liquorice, as well as a big dose of salt. This whisky has become slightly sweeter in recent years. It appears beautifully on the nose, amidst the classic iodine/sticking plasters and cool wood smoke we love.
+>Nose: This opens on big, smoky muscular peat notes. There are spices, and liquorice, as well as a big dose of salt. It appears beautifully on the nose, amidst the classic iodine/sticking plasters and cool wood smoke we love.
 
 >Palate: Seaweed-led, with a hint of vanilla ice cream and more than a whiff of notes from the first aid box (TCP, plasters etc). The oak is big, and muscles its way into the fore as you hold this whisky over your tongue. An upsurge of spices develop – cardamom/black pepper/chilli.
 
