@@ -12,10 +12,7 @@ The language of Scotch tasting notes can be colorful and arcane with the not inf
 But of course...the classic iodine/sticking plasters we love...aaahhhh there it is...a refreshing and comforting whiff of the first aid box.
 
 <p align="center">
-<figure>
-<img src="reports/figures/richpaterson_expert.jpg" alt="richpaterson_expert" width="500"/>
-<figcaption align = "center"><b>Fig.1 - Rich Paterson, master Scotch blender, vigorously nosing a whisky.</b></figcaption>
-</figure>
+    <img src="reports/figures/richpaterson_expert.jpg" alt="richpaterson_expert" width="500"/>
 </p>
 
 
