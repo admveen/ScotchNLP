@@ -11,7 +11,11 @@ The language of Scotch tasting notes can be colorful and arcane with the not inf
 
 But of course...the classic iodine/sticking plasters we love...aaahhhh there it is...a refreshing and comforting whiff of the first aid box.
 
+<figure>
 <img src="reports/figures/richpaterson_expert.jpg" alt="richpaterson_expert" width="600"/>
+<figcaption align = "center"><b>Fig.1 - Rich Paterson, master Scotch blender, vigorously nosing a whisky.</b></figcaption>
+</figure>
+
 
 Besides the oddness of these tasting notes and general hilarity that can ensue from reading them, there is another thing worth noting. *The notes, while couched in metaphor, are often highly specific.* Scotch whisky tasting notes can have references to very specific sensory experiences and descriptors. There are many questions here:
 
