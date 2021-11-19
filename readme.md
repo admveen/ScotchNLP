@@ -17,5 +17,5 @@ Besides the oddness of these tasting notes and general hilarity that can ensue f
 2.  Are there groupings among these descriptors? Do these groups corresponds to meaningful taste/smell types within the domain of Scotch whisky?
 3. Can we more profitably understand Scotches in terms of these general groupings and use these to compare Scotches to each other?
 
-**This projects tries to answer these questions by first constructing a tasting note dictionary from a repository of expert tasting notes. We then employ various dimensionality reduction techniques and topic modeling to discover any structure within the set of descriptors. This structure is used to get a more robust breakdown of the flavor profiles of various Scotches. We then test these groupings by building a Scotch whisky recommendation engine.**
+**This project attempts to answer these questions by first constructing a tasting note dictionary from a repository of expert tasting notes. We then employ various dimensionality reduction techniques and topic modeling to discover any structure within the set of descriptors. This structure is used to get a more robust breakdown of the flavor profiles of various Scotches. We then test these groupings by building a Scotch whisky recommendation engine.**
 
