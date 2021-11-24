@@ -24,3 +24,16 @@ Besides the oddness of these tasting notes and general hilarity that can ensue f
 
 **This project attempts to answer these questions by first constructing a tasting note dictionary from a repository of expert tasting notes. We then employ various dimensionality reduction techniques and topic modeling to discover any structure within the set of descriptors. This structure is used to get a more robust breakdown of the flavor profiles of various Scotches. We then test these groupings by building a Scotch whisky recommendation engine.**
 
+Data Sources 
+------------
+
+Master of Malt is an online store specializing in Scotch single malts. The site is also a repository of information about Scotches that include tasting notes by expert tasters (the chaps at Master of Malt). We created a Scrapy spider to extract tasting notes and various other bottling details of ~ 8600 single malt Scotches. The start page for our spider is here: <br>
+https://www.masterofmalt.com/country-style/scotch/single-malt-whisky/ <br>
+
+The scrapy spider and associated details can be found [here](https://github.com/admveen/ScotchNLP/blob/master/whiskeyscraper/whiskeyscraper/spiders/MM_spyder.py).
+
+Summary 
+------------
+
+The
+
