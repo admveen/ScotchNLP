@@ -13,6 +13,7 @@ But of course...the classic iodine/sticking plasters we love...aaahhhh there it 
 
 <p align="center">
     <img src="reports/figures/richpaterson_expert.jpg" alt="richpaterson_expert" width="500"/>
+    <em>Master blender Richard Paterson getting his nose in there.</em>
 </p>
 
 
